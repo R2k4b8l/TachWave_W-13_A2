@@ -94,3 +94,51 @@ body {
 .hero-circle {
     animation: float 3s ease-in-out infinite;
 }
+
+
+
+
+
+
+
+/* NEW Badge Animation */
+.new-badge {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+/* Statistics Number Animation */
+.stat-number {
+    transition: transform 0.3s ease;
+}
+
+.stat-number:hover {
+    transform: scale(1.05);
+}
+
+/* Social Links Animation */
+.social-link {
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    transform: scale(1.1);
+}
+
+.social-link:hover i {
+    transform: scale(1.1);
+}
+
+/* Gradient Icon */
+.gradient-icon {
+    background: linear-gradient(45deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Focus States for Accessibility */
+a:focus,
+button:focus {
+    outline: 2px solid #9100F8;
+    outline-offset: 2px;
+}
